@@ -10,12 +10,12 @@ export default function Locations() {
   const apiKey = import.meta.env.VITE_WEATHER_API_KEY || "7306f1ed188f4a4197570317251610";
 
   const popularLocations = [
-    "New York",
-    "London",
-    "Tokyo",
-    "Sydney",
-    "Paris",
-    "Toronto",
+    "Laoag",
+    "Batac",
+    "Quezon City",
+    "Japan",
+    "Tuguegarao",
+    "Claveria",
   ];
 
   const fetchWeather = async (cityName) => {
